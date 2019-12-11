@@ -14,6 +14,7 @@ $(".description").each(function () {
 
     } else if (plannerHour === currentHour) {
         $(this).addClass("present");
+        
     } else {
         $(this).addClass("future");
     }
